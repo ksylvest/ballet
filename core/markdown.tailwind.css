@@ -1,0 +1,45 @@
+@layer component {
+  .ballet__markdown {
+    @apply border border-slate-200 rounded-md overflow-hidden;
+  }
+
+  .ballet__markdown__nav {
+    @apply flex justify-between bg-slate-100;
+  }
+
+  .ballet__markdown__tabs {
+    @apply flex;
+  }
+
+  .ballet__markdown__tabs__item {
+    @apply cursor-pointer px-3 py-2;
+  }
+
+  .ballet_markdown__tabs__item.ballet__markdown__tabs__item--active {
+    @apply bg-white;
+  }
+
+  .ballet__markdown__menu {
+    @apply flex p-2 bg-slate-100;
+  }
+
+  .ballet__markdown__menu__item {
+    @apply flex items-center justify-center cursor-pointer px-3 py-2 w-8 h-8 rounded-md hover:bg-slate-200;
+  }
+
+  .ballet__markdown__menu__item.ballet__markdown__item--bold {
+    @apply font-bold;
+  }
+
+  .ballet__markdown__menu__item.ballet__markdown__item--italic {
+    @apply italic;
+  }
+
+  .ballet__markdown__content {
+    @apply p-2;
+  }
+
+  .ballet__markdown__textarea {
+    @apply block w-full rounded border px-3 py-2 outline-none ring-0 transition focus:ring-4 border-slate-200 focus:border-indigo-500 focus:ring-indigo-300;
+  }
+}

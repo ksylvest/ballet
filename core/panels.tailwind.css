@@ -1,0 +1,29 @@
+@layer component {
+  .ballet__panels {
+    @apply border border-slate-200 rounded-md overflow-hidden;
+  }
+
+  .ballet__panels__nav {
+    @apply flex justify-between bg-slate-100 border-b border-slate-200;
+  }
+
+  .ballet__panels__tabs {
+    @apply flex gap-2 -m-px;
+  }
+
+  .ballet__panels__tab {
+    @apply px-3 py-2 text-slate-800 rounded-t-md;
+  }
+
+  .ballet__panels__tab--active {
+    @apply bg-white border-slate-200 border-l border-t border-r;
+  }
+
+  .ballet__panels__tab--inactive {
+    @apply bg-slate-100 border-slate-200 border-b;
+  }
+
+  .ballet__panels__content {
+    @apply block px-3 py-2;
+  }
+}

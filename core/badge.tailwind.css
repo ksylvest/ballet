@@ -1,0 +1,25 @@
+@layer component {
+  .ballet__badge {
+    @apply inline-flex items-center rounded-md font-medium px-2 py-1;
+  }
+
+  .ballet__badge--slate {
+    @apply border-slate-200 bg-slate-100 text-slate-600;
+  }
+
+  .ballet__badge--indigo {
+    @apply border-indigo-200 bg-indigo-100 text-indigo-600;
+  }
+
+  .ballet__badge--red {
+    @apply border-red-200 bg-red-100 text-red-600;
+  }
+
+  .ballet__badge--green {
+    @apply border-green-200 bg-green-100 text-green-600;
+  }
+
+  .ballet__badge--blue {
+    @apply border-blue-200 bg-blue-100 text-blue-600;
+  }
+}

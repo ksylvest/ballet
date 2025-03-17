@@ -1,0 +1,19 @@
+@layer component {
+  .ballet__card {
+    @apply divide-y divide-slate-200 border border-slate-200 overflow-hidden rounded-md bg-white;
+  }
+
+  .ballet__card__header,
+  .ballet__card__footer,
+  .ballet__card__content {
+    @apply px-4 py-5;
+  }
+
+  .ballet__card__header {
+    @apply bg-slate-50;
+  }
+
+  .ballet__card__footer {
+    @apply bg-slate-50;
+  }
+}

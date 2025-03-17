@@ -1,0 +1,33 @@
+@layer component {
+  .ballet__pagination {
+    @apply flex flex-col md:flex-row justify-between items-center gap-4 border-t pt-4 border-slate-200;
+  }
+
+  .ballet__pagination__links {
+    @apply isolate inline-flex -space-x-px rounded-md;
+  }
+
+  .ballet__pagination__item {
+    @apply gap-2 inline-flex items-center px-4 py-2 ring-1 ring-inset ring-slate-200;
+  }
+
+  .ballet__pagination__item:first-child {
+    @apply rounded-l;
+  }
+
+  .ballet__pagination__item:last-child {
+    @apply rounded-r;
+  }
+
+  .ballet__pagination__item--link {
+    @apply text-slate-600 hover:bg-slate-100;
+  }
+
+  .ballet__pagination__item--span {
+    @apply text-slate-600;
+  }
+
+  .ballet__pagination__item--current {
+    @apply font-bold;
+  }
+}

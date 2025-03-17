@@ -1,0 +1,143 @@
+@layer component {
+  /* Comments */
+  .ballet__code .c,
+  .ballet__code .c1,
+  .ballet__code .c2,
+  .ballet__code .cm {
+    @apply text-sky-600;
+  }
+
+  /* Processors */
+  .ballet__code .cp,
+  .ballet__code .cs {
+    @apply text-emerald-600;
+  }
+
+  /* Keywords */
+  .ballet__code .k,
+  .ballet__code .kc,
+  .ballet__code .kd,
+  .ballet__code .kn,
+  .ballet__code .kp,
+  .ballet__code .kr,
+  .ballet__code .kt {
+    @apply text-purple-600;
+  }
+
+  /* Operator */
+  .ballet__code .o {
+    @apply text-teal-600;
+  }
+
+  /* Numbers */
+  .ballet__code .m,
+  .ballet__code .mf,
+  .ballet__code .mh,
+  .ballet__code .mi,
+  .ballet__code .mo {
+    @apply text-orange-600;
+  }
+
+  /* Strings */
+  .ballet__code .s,
+  .ballet__code .s1,
+  .ballet__code .s2,
+  .ballet__code .sb,
+  .ballet__code .sc,
+  .ballet__code .sd,
+  .ballet__code .se,
+  .ballet__code .sh,
+  .ballet__code .si,
+  .ballet__code .sx {
+    @apply text-green-600;
+  }
+
+  /* Symbol */
+  .ballet__code .ss {
+    @apply text-cyan-600;
+  }
+
+  /* Regex */
+  .ballet__code .sr {
+    @apply text-red-600;
+  }
+
+  /* Names */
+  .ballet__code .n {
+    @apply text-red-600;
+  }
+
+  /* Class */
+  .ballet__code .nc {
+    @apply text-amber-600;
+  }
+
+  /* Decorator */
+  .ballet__code .nd {
+    @apply text-purple-600;
+  }
+
+  /* Others */
+  .ballet__code .nb,
+  .ballet__code .ni,
+  .ballet__code .nt,
+  .ballet__code .no {
+    @apply text-amber-600;
+  }
+
+  /* Others */
+  .ballet__code .na,
+  .ballet__code .ne,
+  .ballet__code .nf,
+  .ballet__code .nl {
+    @apply text-blue-600;
+  }
+
+  /* Variables */
+  .ballet__code .v,
+  .ballet__code .vc,
+  .ballet__code .vg,
+  .ballet__code .vi {
+    @apply text-rose-600;
+  }
+
+  /* Punctuation */
+  .ballet__code .p {
+    @apply text-amber-600;
+  }
+
+  /* Prompt */
+  .ballet__code .gp {
+    @apply text-slate-600;
+  }
+
+  /* Errors */
+  .ballet__code .gr {
+    @apply text-red-600;
+  }
+
+  /* Emphasis */
+  .ballet__code .ge {
+    @apply bg-yellow-600 text-white italic;
+  }
+
+  /* Strong */
+  .ballet__code .gs {
+    @apply bg-orange-600 text-white italic;
+  }
+
+  /* Deleted */
+  .ballet__code .gd {
+    @apply bg-pink-600 text-white italic;
+  }
+
+  /* Inserted */
+  .ballet__code .gi {
+    @apply bg-green-600 text-white italic;
+  }
+
+  /* Error */
+  .ballet__code .err {
+    @apply bg-red-600 text-white italic;
+  }
+}

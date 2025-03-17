@@ -1,0 +1,35 @@
+@layer component {
+  .ballet__table {
+    @apply overflow-x-scroll;
+  }
+
+  .ballet__table table {
+    @apply w-full divide-y divide-slate-200;
+  }
+
+  .ballet__table tbody tr:nth-of-type(even) > * {
+    @apply bg-slate-50;
+  }
+
+  .ballet__table thead,
+  .ballet__table tfoot,
+  .ballet__table tbody {
+    @apply divide-y divide-slate-200;
+  }
+
+  .ballet__table thead {
+    @apply uppercase text-slate-600;
+  }
+
+  .ballet__table tfoot {
+    @apply uppercase text-slate-600;
+  }
+
+  .ballet__table td {
+    @apply px-3 py-2 text-left font-normal;
+  }
+
+  .ballet__table th {
+    @apply px-3 py-2 text-left font-medium;
+  }
+}

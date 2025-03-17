@@ -1,0 +1,17 @@
+{
+  "public": true,
+  "name": "@ballet/core",
+  "version": "1.0.3",
+  "files": [
+    "README.md",
+    "*.tailwind.css"
+  ],
+  "dependencies": {
+    "tailwindcss": "^4.0.14"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.0.14",
+    "@tailwindcss/postcss": "^4.0.14",
+    "tailwindcss": "^4.0.14"
+  }
+}

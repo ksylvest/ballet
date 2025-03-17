@@ -1,0 +1,5 @@
+@layer component {
+  .ballet__well {
+    @apply px-4 py-5 bg-slate-50 rounded-md;
+  }
+}

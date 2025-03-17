@@ -1,0 +1,5 @@
+@layer component {
+  .ballet__tablist {
+    @apply flex gap-2 border-b border-slate-200;
+  }
+}

@@ -1,0 +1,97 @@
+@layer component {
+  .ballet__progress {
+    @apply h-4 w-full rounded-md bg-slate-200 flex overflow-hidden;
+  }
+
+  .ballet__progress__bar {
+    @apply h-full outline-2 outline-slate-200;
+  }
+
+  .ballet__progress__bar--red {
+    @apply bg-red-600;
+  }
+
+  .ballet__progress__bar--orange {
+    @apply bg-orange-600;
+  }
+
+  .ballet__progress__bar--amber {
+    @apply bg-amber-600;
+  }
+
+  .ballet__progress__bar--yellow {
+    @apply bg-yellow-600;
+  }
+
+  .ballet__progress__bar--lime {
+    @apply bg-lime-600;
+  }
+
+  .ballet__progress__bar--green {
+    @apply bg-green-600;
+  }
+
+  .ballet__progress__bar--emerald {
+    @apply bg-emerald-600;
+  }
+
+  .ballet__progress__bar--teal {
+    @apply bg-teal-600;
+  }
+
+  .ballet__progress__bar--cyan {
+    @apply bg-cyan-600;
+  }
+
+  .ballet__progress__bar--sky {
+    @apply bg-sky-600;
+  }
+
+  .ballet__progress__bar--blue {
+    @apply bg-blue-600;
+  }
+
+  .ballet__progress__bar--indigo {
+    @apply bg-indigo-600;
+  }
+
+  .ballet__progress__bar--violet {
+    @apply bg-violet-600;
+  }
+
+  .ballet__progress__bar--purple {
+    @apply bg-purple-600;
+  }
+
+  .ballet__progress__bar--fuchsia {
+    @apply bg-fuchsia-600;
+  }
+
+  .ballet__progress__bar--pink {
+    @apply bg-pink-600;
+  }
+
+  .ballet__progress__bar--rose {
+    @apply bg-rose-600;
+  }
+
+  .ballet__progress__bar--slate {
+    @apply bg-slate-600;
+  }
+
+  .ballet__progress__bar--gray {
+    @apply bg-gray-600;
+  }
+
+  .ballet__progress__bar--zinc {
+    @apply bg-zinc-600;
+  }
+
+  .ballet__progress__bar--neutral {
+    @apply bg-neutral-600;
+  }
+
+  .ballet__progress__bar--stone {
+    @apply bg-stone-600;
+  }
+}

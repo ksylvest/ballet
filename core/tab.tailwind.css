@@ -1,0 +1,13 @@
+@layer component {
+  .ballet__tab {
+    @apply cursor-pointer px-3 py-2 rounded-t-md -m-px border border-transparent;
+  }
+
+  .ballet__tab[aria-selected="false"] {
+    @apply bg-transparent border-transparent text-slate-600;
+  }
+
+  .ballet__tab[aria-selected="true"] {
+    @apply bg-white border-l-slate-200 border-t-slate-200 border-r-slate-200 border-b-white text-slate-800;
+  }
+}

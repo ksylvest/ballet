@@ -1,0 +1,62 @@
+@layer component {
+  .ballet__button {
+    @apply cursor-pointer
+    inline-flex
+    items-center
+    justify-center
+    gap-2
+    rounded-md
+    px-3
+    py-2
+    font-semibold
+    shadow
+    outline-none
+    ring-0
+    transition
+    focus:ring-4;
+  }
+
+  .ballet__button--full {
+    @apply w-full;
+  }
+
+  .ballet__button--slate {
+    @apply text-white
+    bg-slate-600
+    hover:bg-slate-400
+    disabled:bg-slate-300
+    ring-slate-200;
+  }
+
+  .ballet__button--indigo {
+    @apply text-white
+    bg-indigo-600
+    hover:bg-indigo-400
+    disabled:bg-indigo-300
+    ring-indigo-200;
+  }
+
+  .ballet__button--red {
+    @apply text-white
+    bg-red-600
+    hover:bg-red-400
+    disabled:bg-red-300
+    ring-red-200;
+  }
+
+  .ballet__button--green {
+    @apply text-white
+    bg-green-600
+    hover:bg-green-400
+    disabled:bg-green-300
+    ring-green-200;
+  }
+
+  .ballet__button--blue {
+    @apply text-white
+    bg-blue-600
+    hover:bg-blue-400
+    disabled:bg-blue-300
+    ring-blue-200;
+  }
+}

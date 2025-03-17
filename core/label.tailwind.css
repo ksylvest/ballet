@@ -1,0 +1,5 @@
+@layer component {
+  .ballet__label {
+    @apply text-slate-800 font-medium;
+  }
+}

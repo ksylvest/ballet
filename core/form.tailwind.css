@@ -1,0 +1,5 @@
+@layer component {
+  .ballet__form {
+    @apply space-y-4;
+  }
+}
