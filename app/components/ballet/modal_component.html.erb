@@ -1,0 +1,9 @@
+<%= render(Ballet::Modal::VignetteComponent.new) do %>
+  <%= tag.div class: "ballet__modal__container" do %>
+    <%= tag.div class: "ballet__modal__dialog" do %>
+      <%= header if header? %>
+      <%= render(Ballet::Modal::ContentComponent.new) { content } %>
+      <%= footer if footer? %>
+    <% end %>
+  <% end %>
+<% end %>

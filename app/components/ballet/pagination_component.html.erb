@@ -1,0 +1,43 @@
+<div class="ballet__pagination">
+  <div class="ballet__pagination__summary">
+    Page <strong><%= page %></strong> of <strong><%= total_pages %></strong>
+  </div>
+
+  <%= tag.nav class: "ballet__pagination__links", aria: { label: "pagination" } do %>
+    <%= render prev_page_component do %>
+      ‹ <span class="hidden md:block">Prev</span>
+    <%- end -%>
+
+    <%- if l_truncated? %>
+      <%= render truncated_ellipsis_component do %>
+        …
+      <% end %>
+    <%- end -%>
+
+    <%- l_window.each do |page| -%>
+      <%= render link_page_component(page:) do %>
+        <%= page %>
+      <% end %>
+    <%- end -%>
+
+    <%= render current_page_component do %>
+      <%= page %>
+    <% end %>
+
+    <%- r_window.each do |page| -%>
+      <%= render link_page_component(page:) do %>
+        <%= page %>
+      <% end %>
+    <%- end -%>
+
+    <%- if r_truncated? %>
+      <%= render truncated_ellipsis_component do %>
+        …
+      <% end %>
+    <%- end -%>
+
+    <%= render next_page_component do %>
+      <span class="hidden md:block">Next</span> ›
+    <% end %>
+  <% end %>
+</div>

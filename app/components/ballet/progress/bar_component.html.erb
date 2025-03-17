@@ -1,0 +1,6 @@
+<%= tag.div(
+  class: "ballet__progress__bar ballet__progress__bar--#{@color}",
+  style: "width: #{width}",
+  role: "progressbar",
+  aria: { valuemin: @min, valuemax: @max, valuenow: @value }
+) %>
