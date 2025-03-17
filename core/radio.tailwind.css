@@ -1,0 +1,5 @@
+@layer component {
+  .ballet__radio {
+    @apply h-4 w-4 rounded-full border-slate-200 text-indigo-500 focus:ring-indigo-500;
+  }
+}

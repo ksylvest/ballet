@@ -1,6 +1,7 @@
 @import "./badge.tailwind.css";
 @import "./button.tailwind.css";
 @import "./card.tailwind.css";
+@import "./checkbox.tailwind.css";
 @import "./code.tailwind.css";
 @import "./field.tailwind.css";
 @import "./form.tailwind.css";
@@ -11,6 +12,7 @@
 @import "./pagination.tailwind.css";
 @import "./panels.tailwind.css";
 @import "./progress.tailwind.css";
+@import "./radio.tailwind.css";
 @import "./tab.tailwind.css";
 @import "./table.tailwind.css";
 @import "./tablist.tailwind.css";
