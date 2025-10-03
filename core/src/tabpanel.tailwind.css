@@ -1,5 +1,5 @@
 @layer component {
-  .ballet__tabpanel {
+  .ballet__tabpanel[aria-hidden="true"] {
     @apply hidden;
   }
 

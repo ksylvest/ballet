@@ -12,15 +12,15 @@ _Option A:_
 
 ```css
 @import "tailwindcss";
-@import "@ballet/core/all";
+@import "@ballet/core/all.tailwind.css";
 ```
 
 _Option B:_
 
 ```css
 @import "tailwindcss";
-@import "@ballet/core/badge";
-@import "@ballet/core/button";
+@import "@ballet/core/badge.tailwind.css";
+@import "@ballet/core/button.tailwind.css";
 /* ... */
 ```
 

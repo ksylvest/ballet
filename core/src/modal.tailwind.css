@@ -18,7 +18,7 @@
   }
 
   .ballet__modal__footer {
-    @apply flex items-center justify-between gap-2   text-slate-800;
+    @apply flex items-center justify-between gap-2 text-slate-800;
   }
 
   .ballet__modal__content {

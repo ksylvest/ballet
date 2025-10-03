@@ -1,0 +1,13 @@
+@layer component {
+  .ballet__input {
+    @apply block w-full rounded border px-3 py-2 outline-none ring-0 transition focus:ring-4 border-slate-200 focus:border-indigo-500 focus:ring-indigo-300;
+  }
+
+  .ballet__input--valid {
+    @apply border-emerald-500 ring-emerald-300 focus:border-emerald-500 focus:ring-emerald-300/50;
+  }
+
+  .ballet__input--error {
+    @apply border-rose-500 ring-rose-300 focus:border-rose-500 focus:ring-rose-300/50;
+  }
+}

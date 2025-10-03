@@ -1,0 +1,37 @@
+@layer component {
+  .ballet__pagination {
+    @apply flex flex-col md:flex-row justify-between items-center gap-4 border-t pt-4 border-slate-200;
+  }
+
+  .ballet__pagination__summary {
+    @apply text-slate-600;
+  }
+
+  .ballet__pagination__content {
+    @apply isolate inline-flex -space-x-px rounded-md;
+  }
+
+  .ballet__pagination__content > *:first-child {
+    @apply rounded-l;
+  }
+
+  .ballet__pagination__content > *:last-child {
+    @apply rounded-r;
+  }
+
+  .ballet__pagination__content > * {
+    @apply gap-2 inline-flex items-center px-4 py-2 ring-1 ring-inset ring-slate-200;
+  }
+
+  .ballet__pagination__content > a {
+    @apply text-slate-600 hover:bg-slate-100;
+  }
+
+  .ballet__pagination__content > span {
+    @apply text-slate-600;
+  }
+
+  .ballet__pagination__content > [aria-current="page"] {
+    @apply font-bold;
+  }
+}
