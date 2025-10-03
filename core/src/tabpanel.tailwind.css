@@ -1,0 +1,9 @@
+@layer component {
+  .ballet__tabpanel[aria-hidden="true"] {
+    @apply hidden;
+  }
+
+  .ballet__tabpanel[aria-hidden="false"] {
+    @apply block;
+  }
+}

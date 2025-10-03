@@ -1,0 +1,17 @@
+@layer component {
+  .ballet__switch {
+    @apply inline-flex items-center gap-2 rounded-full border border-slate-200 bg-slate-100;
+  }
+
+  .ballet__switch > * {
+    @apply flex cursor-pointer items-center justify-center gap-2 rounded-full px-6 py-2;
+  }
+
+  .ballet__switch > [aria-checked="true"] {
+    @apply bg-white shadow font-semibold;
+  }
+
+  .ballet__switch > [aria-checked="false"] {
+    @apply bg-transparent font-medium;
+  }
+}

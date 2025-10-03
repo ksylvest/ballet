@@ -1,0 +1,35 @@
+@layer component {
+  .ballet__modal__container {
+    @apply flex h-full w-full items-center justify-center px-8 py-8;
+  }
+
+  .ballet__modal__dialog {
+    @apply flex max-h-full w-full max-w-4xl flex-col rounded-md bg-white shadow divide-y divide-slate-200;
+  }
+
+  .ballet__modal__header,
+  .ballet__modal__footer,
+  .ballet__modal__content {
+    @apply px-4 py-5;
+  }
+
+  .ballet__modal__header {
+    @apply flex items-center justify-between gap-2 text-slate-800;
+  }
+
+  .ballet__modal__footer {
+    @apply flex items-center justify-between gap-2 text-slate-800;
+  }
+
+  .ballet__modal__content {
+    @apply shrink grow overflow-y-auto;
+  }
+
+  .ballet__modal__title {
+    @apply font-semibold text-slate-800;
+  }
+
+  .ballet__modal__vignette {
+    @apply fixed inset-0 z-50 flex bg-slate-800/50;
+  }
+}

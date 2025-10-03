@@ -1,5 +1,0 @@
-@layer component {
-  .ballet__field {
-    @apply space-y-2;
-  }
-}

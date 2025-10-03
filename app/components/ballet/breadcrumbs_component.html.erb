@@ -1,6 +1,0 @@
-<%= tag.nav class: "flex items-center gap-2 rounded-md border border-slate-200 bg-slate-100" do %>
-  <%- items.each_with_index do |item, index| -%>
-    <%= render(Ballet::Breadcrumbs::SeparatorComponent.new) if index > 0 %>
-    <%= item %>
-  <%- end -%>
-<% end %>

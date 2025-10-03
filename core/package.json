@@ -1,11 +1,14 @@
 {
   "public": true,
   "name": "@ballet/core",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "files": [
     "README.md",
-    "*.tailwind.css"
+    "src/"
   ],
+  "exports": {
+    "./*": "./src/*"
+  },
   "dependencies": {
     "tailwindcss": "^4.0.14"
   },
